@@ -1,0 +1,12 @@
+﻿to HiMsg
+	log "Hi"
+end HiMsg
+
+
+to Hello
+	Log "Good morning"
+end Hello
+
+to everyone
+	log "Everyone"
+end everyone

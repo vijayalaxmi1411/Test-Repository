@@ -1,0 +1,19 @@
+﻿to handle launchBrowser
+	(*	typetext windowsKey,"r"
+	wait 1
+	typetext "chrome",return
+	WaitFor 60, text:"Search Google"
+	
+	typetext "www.demoblaze.com",return
+	WaitFor 60, text:"Product Store"*)
+	Log "In Main Suite First Handler"
+	//Script2
+end launchBrowser
+
+to searchProduct
+	(*	click text:"Samsung galaxy s6"
+	click text:"Add to cart"*)
+	Log "In Main Suite Second Handler"
+end searchProduct
+
+

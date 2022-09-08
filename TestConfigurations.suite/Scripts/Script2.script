@@ -1,0 +1,10 @@
+﻿typetext windowsKey,"r"
+wait 1
+typetext "chrome demoblaze.com",return
+WaitFor 60, text:"Product Store"
+
+repeat until ImageFound(text:"Get in Touch", waitFor:4)
+	ScrollWheelDown 1
+	CaptureScreen {name:SuiteInfo().ImagesFolder & slash & Screenshots&slash& "CurrentLogo",increment:yes}
+	
+end repeat
